@@ -48,11 +48,3 @@ function App() {
 | isOpen          | `boolean`     | `true`   | If his value is true, the modal is displayed                             | `false`           |
 | modalContent    | `JSX.element` | `true`   | Content of the modal                                                     | `{}`              |
 | title           | `string`      | `false`  | Modal header title                                                       | `""`              |
-
-## Running Tests
-
-To run tests, run the following command
-
-```bash
-  npm run test
-```
