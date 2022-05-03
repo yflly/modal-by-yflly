@@ -1,49 +1,39 @@
-![Logo](https://user-images.githubusercontent.com/72107589/149128610-e2e79c72-2df6-4315-b632-1a71c5ef84f4.png)
+[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
-ReactLightModal is a modal library, built in typescript light and accessible. It's goal is to provide easy, flexible, configurable and accessible way to display modals for your application.
+# simple-component-library
 
-## Documentation
+A library of React components created using `create-react-app`.
 
-[See our Storybook Documentation](https://reactlightmodal.xyz)
-
-## Authors
-
-- [@raphaeldamevin](https://www.github.com/damevin)
-
-## Demo
-
-![demo gif](https://user-images.githubusercontent.com/72107589/149371773-01322567-8701-43f6-b0f5-940a84859318.gif)
+modal-by-yflly is a modal library, Flexible, configurable and accessible way to display modals for your application.
 
 ## Installation
 
-Install ReactLightModal with npm
+Install modal-by-yflly with npm
 
 ```bash
-npm i reactlightmodal-by-damevin
+npm i modal-by-yflly
 ```
 
 Install ReactLightModal with yarn
 
 ```bash
-yarn add reactlightmodal-by-damevin
+yarn add modal-by-yflly
 ```
 
 ## Usage/Examples
 
 ```javascript
-import Modal from 'reactlightmodal-by-damevin';
-import React, {useState} from "react;
+import Modal from "modal-by-yflly";
+import React, { useState } from "react";
 
 const [modal, setModal] = useState(false);
 
 const toggleModal = () => {
-    setModal(!modal)
-}
+  setModal(!modal);
+};
 
 function App() {
-  return (
-      <Modal />
-  )
+  return <Modal />;
 }
 ```
 
@@ -66,11 +56,3 @@ To run tests, run the following command
 ```bash
   npm run test
 ```
-
-## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
