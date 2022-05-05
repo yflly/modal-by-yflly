@@ -6,6 +6,11 @@ A library of React components created using `create-react-app`.
 
 modal-by-yflly is a modal library, Flexible, configurable and accessible way to display modals for your application.
 
+
+#### EXAMPLE
+
+![The modale](./src/modal.jpg "modale")
+
 ## Installation
 
 Install modal-by-yflly with npm
