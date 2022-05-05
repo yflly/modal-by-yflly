@@ -11,6 +11,10 @@ modal-by-yflly is a modal library, Flexible, configurable and accessible way to 
 
 ![The modale](./src/modal.jpg "modale")
 
+## Authors
+
+- [@yffly](https://github.com/yflly)
+
 ## Installation
 
 Install modal-by-yflly with npm
