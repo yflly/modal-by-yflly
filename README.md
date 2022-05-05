@@ -42,7 +42,8 @@ const toggleModal = () => {
 };
 
 function App() {
-  return <Modal />;
+  return <Modal 
+  isOpen={modal}/>;
 }
 ```
 
